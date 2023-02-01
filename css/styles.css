@@ -3,6 +3,12 @@
     list-style-type: none;
     text-decoration: none;
 }
+html,body{
+    height: 100%;
+}
+.Page{
+    min-height: 100%;
+}
 .Header{
     font-family: 'Cairo', sans-serif;
     background-color: black;
@@ -83,9 +89,7 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 97.5%;
+    
 }
 @media only screen and (max-width: 600px){
     
