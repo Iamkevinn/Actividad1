@@ -30,13 +30,15 @@ html,body{
 }
 .Nav ol a {
     color: white;
+    cursor: pointer;
 }
 .Nav ol li{
     margin: 0 5px 10px;
     background-color: rgba(128, 128, 128, 0.472);
     padding: 7px 9px;
 }
-main{
+
+.main{
     padding: 0 30px;
 }
 h2{
@@ -65,7 +67,7 @@ input , select, textarea{
     width: 90%;
 }
 .Information li select{
-    width: 101.7%;
+    width: 101%;
     height: 34px;
 }
 #Mensaje{
