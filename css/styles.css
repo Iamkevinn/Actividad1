@@ -62,21 +62,20 @@ input , select, textarea{
     width: 100%;
 }
 #Direccion , #Telefono{
-    width: 95%;
+    width: 90%;
 }
 .Information li select{
-    width: 101%;
-    height: 29px;
+    width: 101.7%;
+    height: 34px;
 }
 #Mensaje{
-    width: 100%;
     resize: none;
     height: 100px;
 }
 .Button{
     cursor: pointer;
     font-size: 1em;
-    margin: 15px 0 100px 1px;
+    margin: 15px 0 80px 1px;
     width: 85px;
     padding: 8px 12px;
     background-color: rgb(17, 17, 17);
@@ -88,9 +87,17 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
-    
+    padding: 20px;
 }
 @media only screen and (max-width: 600px){
-    
+    .Information{
+        display: block;
+    }
+    #Direccion , #Telefono{
+        width: 100%;
+    }
+    .Information li select{
+        width: 101.5%;
+        height: 40px;
+    }
 }
