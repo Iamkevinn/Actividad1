@@ -1,0 +1,92 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+.Header{
+    font-family: 'Cairo', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 4px yellow;
+}
+.Nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.Nav ol{
+    display: flex;
+}
+.Nav ol a {
+    color: white;
+}
+.Nav ol li{
+    margin: 0 5px 10px;
+    background-color: rgba(128, 128, 128, 0.472);
+    padding: 7px 9px;
+}
+main{
+    padding: 0 30px;
+}
+h2{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+label{
+    display: block;
+    margin: 5px 0;
+}
+input , select, textarea{
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 30px;
+    box-shadow: -1px 1px 1px rgba(200, 200, 200, 0.363);
+}
+.Information{
+    display: flex;
+}
+.Information li{
+    width: 100%;
+}
+#Direccion , #Telefono{
+    width: 95%;
+}
+.Information li select{
+    width: 101%;
+    height: 29px;
+}
+#Mensaje{
+    width: 100%;
+    resize: none;
+    height: 100px;
+}
+.Button{
+    cursor: pointer;
+    font-size: 1em;
+    margin: 15px 0 100px 1px;
+    width: 85px;
+    padding: 8px 12px;
+    background-color: rgb(17, 17, 17);
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 97.5%;
+}
+@media only screen and (max-width: 600px){
+    
+}
