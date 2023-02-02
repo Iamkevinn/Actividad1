@@ -1,0 +1,60 @@
+.Tools{
+    display: flex;
+    justify-content: space-between;
+}
+.Values select{
+    width: 50px;
+    text-align: center;
+}
+.Search input{
+    width: 20vw;
+}
+.TitlesInformation{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.InformationValues{
+    background-color: rgba(128, 128, 128, 0.139);
+    padding: 5px;
+}
+.SectionValuesInformation{
+    margin: 10px 0;
+    display: flex;
+}
+.SectionValuesInformation li{
+    width: 27.5%;
+}
+.SectionValuesInformation li:first-child{
+    width: 23%;
+}
+.Asunto{
+    text-align: center;
+}
+.Input{
+    font-weight: bold;
+}
+.Output{
+    word-wrap: break-word;
+}
+.IconsActions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 110%;
+}
+.Icons{
+    width: 1.5em;
+    margin: 0;
+}
+@media only screen and (max-width: 600px){
+    .SectionValuesInformation li:first-child{
+        width: 18%;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width:900px){
+    .SectionValuesInformation li:first-child{
+        width: 20%;
+    }
+}

@@ -17,7 +17,7 @@ html,body{
     padding: 15px;
     font-weight: bold;
     font-size: 2.5em;
-    text-shadow: 1px 1px 4px yellow;
+    text-shadow: 1px 1px 4px rgba(255, 255, 0, 0.457);
 }
 .Nav{
     background-color: black;
@@ -39,67 +39,16 @@ html,body{
 }
 
 .main{
-    padding: 0 30px;
+    padding: 0 10px;
 }
 h2{
     font-size: 2em;
     font-weight: bold;
     margin: 20px 0;
 }
-label{
-    display: block;
-    margin: 5px 0;
-}
-input , select, textarea{
-    width: 100%;
-    border-radius: 2px;
-    border: 1px solid rgb(200, 200, 200);
-    height: 30px;
-    box-shadow: -1px 1px 1px rgba(200, 200, 200, 0.363);
-}
-.Information{
-    display: flex;
-}
-.Information li{
-    width: 100%;
-}
-#Direccion , #Telefono{
-    width: 90%;
-}
-.Information li select{
-    width: 101%;
-    height: 34px;
-}
-#Mensaje{
-    resize: none;
-    height: 100px;
-}
-.Button{
-    cursor: pointer;
-    font-size: 1em;
-    margin: 15px 0 80px 1px;
-    width: 85px;
-    padding: 8px 12px;
-    background-color: rgb(17, 17, 17);
-    border: 1px solid black;
-    color: white;
-    border-radius: 5px;
-}
 footer{
     background-color: black;
     color: white;
     text-align: center;
     padding: 20px;
-}
-@media only screen and (max-width: 600px){
-    .Information{
-        display: block;
-    }
-    #Direccion , #Telefono{
-        width: 100%;
-    }
-    .Information li select{
-        width: 101.5%;
-        height: 40px;
-    }
 }
