@@ -9,52 +9,89 @@
 .Search input{
     width: 20vw;
 }
-.TitlesInformation{
-    margin: 10px 0;
-    display: flex;
-    justify-content: space-around;
+table{
+    margin: 15px 0;
+    width: 100%;
+    table-layout: auto;
 }
-.InformationValues{
-    background-color: rgba(128, 128, 128, 0.139);
+table, th, td{
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
     padding: 5px;
 }
-.SectionValuesInformation{
-    margin: 10px 0;
+tr td:last-child{
+    background-color: rgba(236, 232, 232, 0.053);
+    margin: 0;
+    padding: 0;
+}
+.Icons{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
 }
-.SectionValuesInformation li{
-    width: 27.5%;
-}
-.SectionValuesInformation li:first-child{
-    width: 23%;
-}
-.Asunto{
-    text-align: center;
+
+.Delete{
+    margin-right: 22px;
 }
 .Input{
     font-weight: bold;
-}
-.Output{
-    word-wrap: break-word;
+    display: block;
 }
 .IconsActions{
+    position: absolute;
+    width: 25px;
+    cursor: pointer;
+}
+.Output{
+    display: block;
+    margin: 10px 0;
+}
+.PageInformation{
     display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    font-size: 15px;
+}
+.ShowInformation{
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    align-content: center;
     justify-content: center;
-    height: 100%;
-    width: 110%;
+    text-align: center;
 }
-.Icons{
-    width: 1.5em;
-    margin: 0;
+.ButtonsPageInformation{
+    display: flex;
 }
-@media only screen and (max-width: 600px){
-    .SectionValuesInformation li:first-child{
-        width: 18%;
-    }
+.ButtonsPageInformation button{
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 15px;
+    color: rgb(49, 49, 49);
+    font-size: 15px;
+    border: 1px solid rgb(155, 155, 155);
+    box-shadow: 0px 0px 1px  rgba(19, 19, 19, 0.355);
 }
-@media only screen and (min-width: 600px) and (max-width:900px){
-    .SectionValuesInformation li:first-child{
-        width: 20%;
-    }
+#Previous{
+    border-radius: 6px 0 0 6px;
+}
+#Next{
+    border-radius: 0 6px 6px 0;
+}
+.PageNumberDiv{
+    background-color: rgb(62, 62, 237);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#PageNumber{
+    margin: 0 15px;
+    color: white;
 }
