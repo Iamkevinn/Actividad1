@@ -24,6 +24,8 @@ html,body{
     color: white;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
 }
 .Nav ol{
     display: flex;
@@ -33,7 +35,7 @@ html,body{
     cursor: pointer;
 }
 .Nav ol li{
-    margin: 0 5px 15px;
+    margin: 15px 5px;
     background-color: rgba(128, 128, 128, 0.472);
     padding: 7px 9px;
 }
