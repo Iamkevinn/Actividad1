@@ -7,7 +7,10 @@
     text-align: center;
 }
 .Search input{
-    width: 24vw;
+    width: 20vw;
+}
+.Information{
+    min-width: 100%;
 }
 table{
     margin: 15px 0;
@@ -22,13 +25,16 @@ table, th, td{
 th{
     padding: 15px;
 }
+td span{
+    word-break: break-word;
+}
 tr td:last-child{
     background-color: rgba(236, 232, 232, 0.053);
     margin: 0;
     padding: 0;
 }
 tr:nth-child(even){
-    background-color: rgba(198, 196, 196, 0.053);
+    background-color: rgba(198, 196, 196, 0.112);
 }
 .Icons{
     display: flex;
