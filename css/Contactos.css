@@ -25,7 +25,7 @@ table, th, td{
 th{
     padding: 15px;
 }
-td span{
+span{
     word-break: break-word;
 }
 tr td:last-child{
