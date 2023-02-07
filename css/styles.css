@@ -33,13 +33,15 @@ html,body{
     cursor: pointer;
 }
 .Nav ol li{
-    margin: 0 5px 10px;
+    margin: 0 5px 15px;
     background-color: rgba(128, 128, 128, 0.472);
     padding: 7px 9px;
 }
-
+.Nav ol li:hover {
+    background-color: rgba(128, 128, 128, 0.32) ;
+}
 .main{
-    padding: 0 10px;
+    padding: 0 20px;
 }
 h2{
     font-size: 2em;
